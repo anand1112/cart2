@@ -1,0 +1,260 @@
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ git clone https://github.com/anand1112/cart2.git
+Cloning into 'cart2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ ls
+README.md  cart  cart2
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ ls
+README.md  cart  cart2
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ cd cart2
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ ls
+README.md  index.html
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ git add *
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   index.html
+
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ git commit -m "sample file" index.html 
+[master 54512e2] sample file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ git push
+Username for 'https://github.com/anand1112/cart2.git': anand1112
+Password for 'https://anand1112@github.com/anand1112/cart2.git': 
+Counting objects: 3, done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 61.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/anand1112/cart2.git
+   b703c2c..54512e2  master -> master
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment/cart2 (master) $ cd ..
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+OK
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ sudo apt update
+Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic InRelease
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]   
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB] 
+Hit:4 https://download.docker.com/linux/ubuntu bionic InRelease                                                              
+Ign:5 http://pkg.jenkins.io/debian-stable binary/ InRelease                                                                    
+Get:6 http://pkg.jenkins.io/debian-stable binary/ Release [2044 B]                                     
+Get:7 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+Get:8 http://pkg.jenkins.io/debian-stable binary/ Release.gpg [195 B]                
+Get:9 http://pkg.jenkins.io/debian-stable binary/ Packages [16.8 kB]                 
+Fetched 271 kB in 1s (328 kB/s)                                      
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+14 packages can be upgraded. Run 'apt list --upgradable' to see them.
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ sudo apt install jenkins
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  daemon
+The following NEW packages will be installed:
+  daemon jenkins
+0 upgraded, 2 newly installed, 0 to remove and 14 not upgraded.
+Need to get 63.3 MB of archives.
+After this operation, 63.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/universe amd64 daemon amd64 0.6.4-1build1 [99.5 kB]
+Get:2 http://pkg.jenkins.io/debian-stable binary/ jenkins 2.204.5 [63.2 MB]
+Fetched 63.3 MB in 9s (6688 kB/s)                                                                                                              
+Selecting previously unselected package daemon.
+(Reading database ... 128687 files and directories currently installed.)
+Preparing to unpack .../daemon_0.6.4-1build1_amd64.deb ...
+Unpacking daemon (0.6.4-1build1) ...
+Selecting previously unselected package jenkins.
+Preparing to unpack .../jenkins_2.204.5_all.deb ...
+Unpacking jenkins (2.204.5) ...
+Setting up daemon (0.6.4-1build1) ...
+Setting up jenkins (2.204.5) ...
+Processing triggers for systemd (237-3ubuntu10.39) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ sudo systemctl start jenkins
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ sudo systemctl enable jenkins
+jenkins.service is not a native service, redirecting to systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable jenkins
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ sudo systemctl status jenkins.service 
+● jenkins.service - LSB: Start Jenkins at boot time
+   Loaded: loaded (/etc/init.d/jenkins; generated)
+   Active: active (exited) since Tue 2020-03-10 05:37:01 UTC; 1min 48s ago
+     Docs: man:systemd-sysv-generator(8)
+    Tasks: 0 (limit: 1152)
+   CGroup: /system.slice/jenkins.service
+
+Mar 10 05:37:00 ip-172-31-5-197 systemd[1]: Starting LSB: Start Jenkins at boot time...
+Mar 10 05:37:00 ip-172-31-5-197 jenkins[11753]: Correct java version found
+Mar 10 05:37:00 ip-172-31-5-197 jenkins[11753]:  * Starting Jenkins Automation Server jenkins
+Mar 10 05:37:00 ip-172-31-5-197 su[11801]: Successful su for jenkins by root
+Mar 10 05:37:00 ip-172-31-5-197 su[11801]: + ??? root:jenkins
+Mar 10 05:37:00 ip-172-31-5-197 su[11801]: pam_unix(su:session): session opened for user jenkins by (uid=0)
+Mar 10 05:37:00 ip-172-31-5-197 su[11801]: pam_unix(su:session): session closed for user jenkins
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ sudo systemctl status jenkins                                    
+● jenkins.service - LSB: Start Jenkins at boot time
+   Loaded: loaded (/etc/init.d/jenkins; generated)
+   Active: active (exited) since Tue 2020-03-10 05:37:01 UTC; 4min 35s ago
+     Docs: man:systemd-sysv-generator(8)
+    Tasks: 0 (limit: 1152)
+   CGroup: /system.slice/jenkins.service
+
+Mar 10 05:37:00 ip-172-31-5-197 systemd[1]: Starting LSB: Start Jenkins at boot time...
+Mar 10 05:37:00 ip-172-31-5-197 jenkins[11753]: Correct java version found
+Mar 10 05:37:00 ip-172-31-5-197 jenkins[11753]:  * Starting Jenkins Automation Server jenkins
+Mar 10 05:37:00 ip-172-31-5-197 su[11801]: Successful su for jenkins by root
+Mar 10 05:37:00 ip-172-31-5-197 su[11801]: + ??? root:jenkins
+Mar 10 05:37:00 ip-172-31-5-197 su[11801]: pam_unix(su:session): session opened for user jenkins by (uid=0)
+Mar 10 05:37:00 ip-172-31-5-197 su[11801]: pam_unix(su:session): session closed for user jenkins
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+a4b3f99f1726473bbf4cfbdab5d96f1a
+ArcheplayLabRole-Bp-5459eae5-Aws_Account_Cloud9_Lab_Role-1:~/environment $ 
+
+
+admin
+admin@a415608
+
+
+maben path - /usr/local/apcahe-maven.3.6.3/bin/mvn
+
+
+/usr/local/apache-maven-3.6.3/bin
+
+============================================
+
+
+
+----------------------------------------------------------------
+Dockerfile
+#This dockerfile for cart frontend
+#DOCKERCOMMAND Options
+FROM index.docker.io/centos:7
+MAINTAINER mohanraz@gmail.com
+RUN yum -y update
+ADD config /opt
+RUN chmod +x /opt/*
+RUN source /opt/myappenv
+RUN /opt/installpackage.sh
+ADD code /var/www/html
+ENV MY_DB_HOST_WRITE=test MY_DB_HOST_READ=test MY_DB_NAME=test MY_DB_USER=test MY_DB_PASS=test
+EXPOSE 80
+CMD ["apachectl", "-D", "FOREGROUND"]
+
+------------------------------------
+config/installpackage.sh
+
+#!/bin/bash
+yum -y install httpd php php-gd php-myql
+
+------------------------------
+
+/config/myappenv
+
+export JAVA_HOME=/var/lib/java
+
+
+-------------------------------------------
+
+
+Reference file
+
+Use Centos 7  as my base image
+FROM index.docker.io/centos:7
+docker pull index.docker.io/centos:7
+
+Update all the existing packages
+RUN yum -y update
+sh -c "yum -y update"
+
+Install apache php php-gd php-myql
+RUN yum -y install httpd php php-gd php-myql
+sh -c "yum -y install httpd php php-gd php-myql"
+
+copy the code to /var/www/html
+ADD code /var/www/html
+COPY code/* /var/www/html
+ADD https://jfrog.f.c/xyz/xyz-1.VERSION.war /webapp
+docker copy code/* xyz:/var/www/html 
+
+Copy config file and source it
+source <filename>
+
+set DB enviroinment variable
+MY_DB_HOST_WRITE=test
+MY_DB_HOST_READ=test
+MY_DB_NAME=test
+MY_DB_USER=test
+MY_DB_PASS=test
+
+Start and Enable apache
+CMD ["apachectl", "-D", "FOREGROUND"]
+sh -c nohup apachectl -D FOREGROUND
+
+
+docker run -d --name cart-database mohanraz81/cart-db:1.0
+docker run -d --name cart-database anand1112/cart-database-0.1
+
+docker run -d -p 9000:80 --name cart-frontend --link cart-database -e MY_DB_HOST_WRITE=cart-database -e MY_DB_HOST_READ=cart-database -e MY_DB_NAME=mydatadb -e MY_DB_USER=mydbuser -e MY_DB_PASS=test123 mohanraz81/cart-fe:1.0
+docker run -d -p 9000:80 --name cart-frontend --link cart-database -e MY_DB_HOST_WRITE=cart-database -e MY_DB_HOST_READ=cart-database -e MY_DB_NAME=mydatadb -e MY_DB_USER=mydbuser -e MY_DB_PASS=test123 anand1112/cart-frontend-0.1
+
+
+
+
+Domain Name:lab14.courseandlabs.com.
+
+{
+    "Account": "522818631138", 
+    "UserId": "AROAXTOTLGXRG7HHZVJBQ:i-09d6f272f1d099979", 
+    "Arn": "arn:aws:sts::522818631138:assumed-role/koprole/i-09d6f272f1d099979"
+}
